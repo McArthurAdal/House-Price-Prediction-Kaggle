@@ -58,11 +58,11 @@ Utilities: Type of utilities available
        ELO	Electricity only	
 	
 LotConfig: Lot configuration
-       Inside	Inside lot
-       Corner	Corner lot
+       Inside	       Inside lot
+       Corner	       Corner lot
        CulDSac	Cul-de-sac
-       FR2	Frontage on 2 sides of property
-       FR3	Frontage on 3 sides of property
+       FR2	       Frontage on 2 sides of property
+       FR3	       Frontage on 3 sides of property
 	
 LandSlope: Slope of property		
        Gtl	Gentle slope
@@ -175,8 +175,8 @@ RoofMatl: Roof material
        ClyTile	Clay or Tile
        CompShg	Standard (Composite) Shingle
        Membran	Membrane
-       Metal	Metal
-       Roll	Roll
+       Metal	       Metal
+       Roll	       Roll
        Tar&Grv	Gravel & Tar
        WdShake	Wood Shakes
        WdShngl	Wood Shingles
@@ -258,14 +258,16 @@ BsmtQual: Evaluates the height of the basement
        Po	Poor (<70 inches)
        NA	No Basement
 		
-BsmtCond: Evaluates the general condition of the basementx	Excellent
+BsmtCond: Evaluates the general condition of the basement
+       Ex	Excellent
        Gd	Good
        TA	Typical - slight dampness allowed
        Fa	Fair - dampness or some cracking or settling
        Po	Poor - Severe cracking, settling, or wetness
        NA	No Basement
 	
-BsmtExposure: Refers to walkout or garden level wallsd	Good Exposure
+BsmtExposure: Refers to walkout or garden level walls
+       Gd	Good Exposure
        Av	Average Exposure (split levels or foyers typically score average or above)	
        Mn	Mimimum Exposure
        No	No Exposure
@@ -374,8 +376,8 @@ FireplaceQu: Fireplace quality
 		
 GarageType: Garage location
 		
-       2Types	More than one type of garage
-       Attchd	Attached to home
+       2Types	       More than one type of garage
+       Attchd	       Attached to home
        Basment	Basement Garage
        BuiltIn	Built-In (Garage part of house - typically has room above garage)
        CarPort	Car Port
